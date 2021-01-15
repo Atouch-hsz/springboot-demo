@@ -14,4 +14,9 @@ public class HealthController {
     public String index() {
         return "health ok!";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "test ok!";
+    }
  }
